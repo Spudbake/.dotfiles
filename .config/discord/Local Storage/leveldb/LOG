@@ -1,0 +1,6 @@
+2024/08/05-22:42:09.537 2a367 Reusing MANIFEST /home/lincolnh/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/08/05-22:42:09.538 2a367 Recovering log #3
+2024/08/05-22:42:09.538 2a367 Reusing old log /home/lincolnh/.config/discord/Local Storage/leveldb/000003.log 
+2024/08/05-22:46:16.487 2a368 Level-0 table #5: started
+2024/08/05-22:46:16.514 2a368 Level-0 table #5: 3209139 bytes OK
+2024/08/05-22:46:16.516 2a368 Delete type=0 #3

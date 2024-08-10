@@ -1,2 +1,3 @@
 # MyDotFiles
-My dot files for my linux vm
+My dot files
+more specifically my nixos config
