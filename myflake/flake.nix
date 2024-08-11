@@ -11,7 +11,7 @@
     
   };
 
-  outputs = { nixpkgs, home-manager, ... }:
+  outputs = { nixpkgs, home-manager,... }:
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs{
@@ -31,18 +31,25 @@
         # the path to your home.nix.
 
         nixosConfigurations = {
-          myNixos = nixpkgs.lib.nixosSystem{
+          desktop = nixpkgs.lib.nixosSystem{
           specialArgs = {inherit system;};
           modules = [
-            ./modules/configuration.nix
+            ./host/desktop/configuration.nix
             ./modules/packages.nix
           ];
         };
+          laptop = nixpkgs.lib.nixosSystem{
+          specialArgs = {inherit system;};
+          modules = [
+            ./host/laptop/configuration.nix
+            ./modules/packages.nix
+          ];
         };
+      };
+      };
 
         
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
-      };
 }
