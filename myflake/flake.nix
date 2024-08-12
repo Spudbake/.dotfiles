@@ -23,8 +23,8 @@
     in {
       homeConfigurations."lincolnh" = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
+      	  modules = [./home.nix];
           };
-      modules = [./home.nix];
             
 
         # Specify your home configuration modules here, for example,

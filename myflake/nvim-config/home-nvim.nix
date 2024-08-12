@@ -39,7 +39,7 @@
       xclip
       wl-clipboard
       ripgrep
-      which-key-nvim
+      #which-key-nvim
     ];
 
     plugins = with pkgs.vimPlugins; [

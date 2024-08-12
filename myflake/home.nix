@@ -23,13 +23,11 @@
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
-    ".config/".source = ../config/;
-    # # You can also set the file content immediately.
-    # ".gradle/gradle.properties".text = ''
-    #   org.gradle.console=verbose
-    #   org.gradle.daemon.idletimeout=3600000
-    # '';
-  };
+    "/home/lincolnh/.config/hypr".source = ./../.config/hpyr;
+    # ".config/waybar".source = .config/waybar;
+    # ".config/kitty".source = .config/kitty;
+        };
+
   programs.git = {
     enable = true;
     userName = "Spudbake";

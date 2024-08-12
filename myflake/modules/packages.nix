@@ -40,6 +40,8 @@
     stylua
     
     clang_12
+    cmake
+
     betterdiscordctl
     betterdiscord-installer
     discord
@@ -51,5 +53,6 @@
 
     cudatoolkit
     python3
+    gvfs
  ];
 }
