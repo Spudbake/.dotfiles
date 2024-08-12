@@ -39,8 +39,9 @@
 
     stylua
     
-    clang_12
     cmake
+    gcc 
+    clang
 
     betterdiscordctl
     betterdiscord-installer
