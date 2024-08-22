@@ -55,5 +55,7 @@
     cudatoolkit
     python3
     gvfs
+    prismlauncher
+    glxinfo
  ];
 }
