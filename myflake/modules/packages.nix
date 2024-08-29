@@ -2,6 +2,8 @@
   {
   # List packages installed in system profile. To search, run:
   # $ nix search wget
+programs.steam.enable = true;
+
   environment.systemPackages = with pkgs; [
     #stuff for actully doing stuff
     neovim
@@ -29,7 +31,6 @@
     nerdfonts
     zip
     unzip
-
     headsetcontrol
     
 

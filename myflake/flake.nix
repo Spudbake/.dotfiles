@@ -36,6 +36,7 @@
           modules = [
             ./host/desktop/configuration.nix
             ./modules/packages.nix
+            ./modules/virt.nix
           ];
         };
           laptop = nixpkgs.lib.nixosSystem{

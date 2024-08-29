@@ -91,7 +91,6 @@ fonts.packages = with pkgs; [
   proggyfonts
 ];
 
-
 #  home-manager = {
 #	#extraSpecialArgs = {inherit inputs;}
 #	users = {"lincolnh" = import ./home/lincolnh/.config/home-manager/home.nix;};
